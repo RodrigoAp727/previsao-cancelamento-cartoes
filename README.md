@@ -4,7 +4,7 @@
 
 Análise de 10.127 clientes de uma emissora de cartões: diagnóstico estatístico, modelo preditivo, simulação financeira da campanha de retenção e uma fila de clientes pronta para a equipe agir.
 
-[![CI](https://github.com/RodrigoAp727/previsao-cancelamento-cartoes/actions/workflows/ci.yml/badge.svg)](https://github.com/RodrigoAp727/previsao-cancelamento-cartoes/actions/workflows/ci.yml) [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RodrigoAp727/previsao-cancelamento-cartoes/blob/main/notebooks/analise_cancelamento_cartoes.ipynb) ![Python](https://img.shields.io/badge/Python-3.12+-2a78d6) ![scikit--learn](https://img.shields.io/badge/scikit--learn-ML-eb6834) ![Licença](https://img.shields.io/badge/licença-MIT-1baf7a)
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RodrigoAp727/previsao-cancelamento-cartoes/blob/main/notebooks/analise_cancelamento_cartoes.ipynb) ![Python](https://img.shields.io/badge/Python-3.12+-2a78d6) ![scikit--learn](https://img.shields.io/badge/scikit--learn-ML-eb6834) ![Licença](https://img.shields.io/badge/licença-MIT-1baf7a)
 
 ---
 
