@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+      - name: Testes
+        run: pytest -v
+      - name: Executar o notebook de ponta a ponta
+        run: jupyter nbconvert --to notebook --execute notebooks/analise_cancelamento_cartoes.ipynb --output-dir /tmp
+      - name: Gerar a fila de retenção
+        run: python -m src.pontuar
